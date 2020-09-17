@@ -20,7 +20,6 @@ for dicts in pythonist_skills:
     for dictss in grand_list:
         new_key = tuple(dictss.keys())[0]
         if keyss[0] == new_key:
-            print('lalala')
             dictss[new_key].append(skills)
 
 print(grand_list)
